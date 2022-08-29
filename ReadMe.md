@@ -6,7 +6,7 @@
 
 ## How to Use `sheetsToObjectArray.gs`
 
-For users familiar with Google Apps Scripts, set up is trivial: navigate to the spreadsheet you want to convert and create a linked script using the source code pasted from either of the accompanying files [sheetsToObjectArray.txt](./sheetsToObjectArray_source.txt) and [sheetsToObjectArray.gs](.sheetsToObjectArray_source.gs). Running the script will result in the execution message containing the required code and a copy will be created as a Google Doc in Google Drive.
+For users familiar with Google Apps Scripts, set up is trivial: navigate to the spreadsheet you want to convert and create a linked script using the source code pasted from either of the accompanying files [sheetsToObjectArray.txt](./sheetsToObjectArray_source.txt) and [sheetsToObjectArray.gs](./sheetsToObjectArray_source.gs). Running the script will result in the execution message containing the required code and a copy will be created as a Google Doc in Google Drive.
 
 ## Detailed Instructions
 
@@ -196,7 +196,7 @@ function sheetToObjectArray() {
   
   let outputTitle = "Javascript Object Array and JSON data Extracted from Google Spreadsheet\n";
   let sheetDetails= `Spreadsheet url - ${appUrl}\n\nSpreadsheet name - ${appName} (sheet name - ${appSheetName})\n`;
-  let info = `Data extracted using SheetToObjectArray.gs (version ${version}), a Google Apps Script utility created by David Pritlove.\nGithub Repository: \n\n`;
+  let info = `Data extracted using SheetToObjectArray.gs (version ${version}), a Google Apps Script utility created by David Pritlove.\nGithub Repository:   https://github.com/DaveChP/Sheets-to-JS-Object-Array\n\n`;
 
   const currentSheet = SpreadsheetApp.getActiveSheet();
   const rows = currentSheet.getRange(2,1,(currentSheet.getLastRow()-1),currentSheet.getLastColumn()).getValues();  
