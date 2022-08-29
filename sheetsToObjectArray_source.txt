@@ -42,7 +42,7 @@ function sheetToObjectArray() {
   
   let outputTitle = "Javascript Object Array and JSON data Extracted from Google Spreadsheet\n";
   let sheetDetails= `Spreadsheet url - ${appUrl}\n\nSpreadsheet name - ${appName} (sheet name - ${appSheetName})\n`;
-  let info = `Data extracted using SheetToObjectArray.gs (version ${version}), a Google Apps Script utility created by David Pritlove.\nGithub Repository: \n\n`;
+  let info = `Data extracted using SheetToObjectArray.gs (version ${version}), a Google Apps Script utility created by David Pritlove.\nGithub Repository: https://github.com/DaveChP/Sheets-to-JS-Object-Array\n\n`;
 
   const currentSheet = SpreadsheetApp.getActiveSheet();
   const rows = currentSheet.getRange(2,1,(currentSheet.getLastRow()-1),currentSheet.getLastColumn()).getValues();  
