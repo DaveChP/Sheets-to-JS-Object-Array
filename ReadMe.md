@@ -2,15 +2,15 @@
 
 ## About
 
-SheetsToObjectArray.gs is a Google Apps Script that reads tabular data in a Google spreadsheet and converts it to a javascript array of objects and to equivalent JSON, for use in javascript projects.
+`SheetsToObjectArray.gs` is a Google Apps Script that reads tabular data in a Google spreadsheet and converts it to a javascript array of objects and to equivalent JSON, for use in javascript projects.
 
 ## How to Use `sheetsToObjectArray.gs`
 
-For users familiar with Google Apps Scripts, set up is trivial: navigate to the spreadsheet you want to convert and create a linked script using the source code pasted from either of the accompanying files [(sheetsToObjectArray.txt](./sheetsToObjectArray.txt) and [sheetsToObjectArray.gs)](./sheetsToObjectArray.gs). Running the script will result in the execution message containing the required code and a copy will be created as a google doc in Google Drive.
+For users familiar with Google Apps Scripts, set up is trivial: navigate to the spreadsheet you want to convert and create a linked script using the source code pasted from either of the accompanying files [(sheetsToObjectArray.txt](./sheetsToObjectArray.txt) and [sheetsToObjectArray.gs)](./sheetsToObjectArray.gs). Running the script will result in the execution message containing the required code and a copy will be created as a Google Doc in Google Drive.
 
 ## Detailed Instructions
 
-1) Navigate to the required spreadsheet. Best results are obtained with simple tabular data having a single header row. Like this:
+1) Navigate to the required Google Sheets spreadsheet in a web browser. Best results are obtained with simple tabular data having a single header row. Like this:
 
 ![Google Sheets data table](./images/01_spreadsheet.png)
 
@@ -18,11 +18,11 @@ For users familiar with Google Apps Scripts, set up is trivial: navigate to the 
 
 ![Google Sheets Extensions menu showing Apps Script option](./images/02_extensions_menu.png)
 
-3) The new window that opens will contain a new .gs page with an empty function named `myFunction()`. Select and delete `myFunction()`:
+3) The new window that opens will contain a new `.gs` page with an empty function named `myFunction()`. Select and delete `myFunction()`:
 
 ![Google Apps Script new page showing empty function](./images/03_empty_script.png)
 
-4) Paste the source code for sheetsToObjectArray.gs in the script window (the source code can be copied from [sheetsToObjectArray.txt](./sheetsToObjectArray.txt) or [sheetsToObjectArray.gs](./sheetsToObjectArray.gs) or from the source code section later in this guide. Once pasted into Apps Script, press the **save** icon:
+4) Paste the source code for `sheetsToObjectArray.gs` in the script window (the source code can be copied from [sheetsToObjectArray.txt](./sheetsToObjectArray.txt) or [sheetsToObjectArray.gs](./sheetsToObjectArray.gs) or from the source code section later in this guide. Once pasted into Apps Script, press the **save** icon:
 
 ![Google Apps Script save project button](./images/04_save_button.png)
 
@@ -36,7 +36,7 @@ For users familiar with Google Apps Scripts, set up is trivial: navigate to the 
 
 ![Google Apps Script Review Permissions Button](./images/modal.png) 
 
-7) Click on your preferred Google account on the popup window that appears:
+7) Click on the Google account hosting the spreadsheet on the popup window that appears:
 
 ![Google Choose Account popup window](./images/07_choose_account.png)
 
@@ -147,7 +147,7 @@ A user may include a message in the output by writing it into an empty variable 
 
 Remember to save the script after making any edits.
 
-If a message is added to the `notes` variable, it will be included in the output after the  spreadsheet details.
+If a message is added to the `notes` variable, it will be included in the output after the spreadsheet details.
 
 ## `sheetsToObjectArray.gs` source code
 
