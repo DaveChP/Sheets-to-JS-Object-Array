@@ -34,7 +34,7 @@ For users familiar with Google Apps Scripts, set up is trivial: navigate to the 
 
 6) After several seconds delay, a modal dialigue will appear, click the **review permissions** button to continue:
 
-![Google Apps Script Review Permissions Button](./images/modal.png) 
+![Google Apps Script Review Permissions Button](./images/06_modal.png) 
 
 7) Click on the Google account hosting the spreadsheet on the popup window that appears:
 
@@ -58,7 +58,7 @@ For users familiar with Google Apps Scripts, set up is trivial: navigate to the 
 
 When the script has completed, an **Execution log** will appear. Beneath the 'Execution started' message will be the current data and time and the output of the script:
 
-![Google Apps Script Execution log](./images/11_messages.png)
+![Google Apps Script Execution log](./images/11_message.png)
 
  Scrolling down will reveal a formatted javascript array of objects representing the table data. There will also be JSON for the same data.
 
@@ -143,7 +143,7 @@ The default filename of the exported Google Doc is **JSexport.doc**. This can be
 
 A user may include a message in the output by writing it into an empty variable named `notes` in the source code. The `notes` declaration can be found below the comment block preceding the main `sheetToObjectArray()` function, towards the top of the script:
 
-![variable allowing user message to be include in output](./images/15_notes.png)
+![variable allowing user message to be include in output](./images/15_notes_option.png)
 
 Remember to save the script after making any edits.
 
