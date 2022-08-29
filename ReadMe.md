@@ -6,7 +6,7 @@
 
 ## How to Use `sheetsToObjectArray.gs`
 
-For users familiar with Google Apps Scripts, set up is trivial: navigate to the spreadsheet you want to convert and create a linked script using the source code pasted from either of the accompanying files [sheetsToObjectArray.txt] (https://github.com/DaveChP/Sheets-to-JS-Object-Array/blob/main/sheetsToObjectArray_source.txt) and [sheetsToObjectArray.gs] (https://github.com/DaveChP/Sheets-to-JS-Object-Array/blob/main/sheetsToObjectArray_source.gs). Running the script will result in the execution message containing the required code and a copy will be created as a Google Doc in Google Drive.
+For users familiar with Google Apps Scripts, set up is trivial: navigate to the spreadsheet you want to convert and create a linked script using the source code pasted from either of the accompanying files [sheetsToObjectArray.txt](./sheetsToObjectArray_source.txt) and [sheetsToObjectArray.gs](.sheetsToObjectArray_source.gs). Running the script will result in the execution message containing the required code and a copy will be created as a Google Doc in Google Drive.
 
 ## Detailed Instructions
 
@@ -22,7 +22,7 @@ For users familiar with Google Apps Scripts, set up is trivial: navigate to the 
 
 ![Google Apps Script new page showing empty function](./images/03_empty_script.png)
 
-4) Paste the source code for `sheetsToObjectArray.gs` in the script window (the source code can be copied from [sheetsToObjectArray.txt] (https://github.com/DaveChP/Sheets-to-JS-Object-Array/blob/main/sheetsToObjectArray_source.gs) or [sheetsToObjectArray.gs] (https://github.com/DaveChP/Sheets-to-JS-Object-Array/blob/main/sheetsToObjectArray_source.gs) or from the source code section later in this guide. Once pasted into Apps Script, press the **save** icon:
+4) Paste the source code for `sheetsToObjectArray.gs` in the script window (the source code can be copied from [sheetsToObjectArray.txt](./sheetsToObjectArray_source.txt) or [sheetsToObjectArray.gs](./sheetsToObjectArray_source.gs) or from the source code section later in this guide. Once pasted into Apps Script, press the **save** icon:
 
 ![Google Apps Script save project button](./images/04_save_button.png)
 
