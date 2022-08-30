@@ -299,7 +299,7 @@ function sheetToObjectArray() {
 
   } // end if exportToDrive;
 
-} // end createDataObjectArray function;
+} // end sheetToObjectArray function;
 
 function clean(val) {
   // backslash-escapes double quote marks in passed string;
